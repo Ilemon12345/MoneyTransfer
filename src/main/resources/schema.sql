@@ -1,0 +1,6 @@
+CREATE TABLE ACCOUNT (
+    id SERIAL PRIMARY KEY,
+    name varchar(50) NOT NULL,
+    balance DECIMAL NOT NULL,
+    version INTEGER DEFAULT 0
+);
